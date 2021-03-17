@@ -229,3 +229,39 @@ header{
 .social-media i:hover{
     background-color: #db2cb5;
 }
+
+.sessao-conhecimentos{
+    background-color: #dad6d6;
+}
+
+.sessao-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao-header h1{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #363636;
+    border-bottom: solid #E100FF;
+    margin-bottom: 1.5rem;
+    text-shadow: .1rem .1rem .1px rgba(0, 0, 0, 0.4);
+}
+
+.conhecimento-text p{
+    align-items: center;
+    justify-content: center;
+    font-family:var(--font-action);
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+    padding-left: 2.5rem;
+}
+
+.conhecimento-text h3{
+    font-family: ink free;
+    font-size: 2rem;
+    padding-left: 55rem;
+    padding-bottom: 3rem;
+}
