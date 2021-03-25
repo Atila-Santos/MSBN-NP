@@ -15,12 +15,16 @@
     --font-action: "Mulish", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hamburguer{
     /* background-color: blue; */
     width: 2rem;
     height: 2rem;
     position: fixed;
-    z-index: 100;
+    z-index: 151;
     right: 2rem;
     top: 2rem;
     display: flex;
@@ -178,6 +182,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 150;
 }
 
 .show-menu .sidebar{
