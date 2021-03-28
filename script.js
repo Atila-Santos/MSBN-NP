@@ -3,5 +3,5 @@ document.querySelector(".hamburguer").addEventListener("click", () =>
 );
 
 function clicou() {
-        alert("Obrigado por confirmar. Ahh... não esqueça a máscara");
+        alert("Obrigado por confirmar. Ahh... não esqueça a máscara.");
 }
